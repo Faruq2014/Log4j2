@@ -1,14 +1,11 @@
-#    Log4j2 Rules:
-
-
-	
+# Log4j2 Rules:
 
 # What is log4j: To track the application and maintain the flow of overall process we create log4j.
 The latest one is log4j2. The old log4j will not work anymore. 
 a.	Highly configurable, written in java, platform independence.
 b.	Flexible, can set different type of levels
 
-#What are the dependencies do we need?
+# What are the dependencies do we need?
 #Two dependencies we will need:
 <dependency>
     <groupId>org.apache.logging.log4j</groupId>
@@ -46,7 +43,7 @@ c.	Multiple appenders support such as console and file.
 d.	Customized configuring.
 e.	.Xml, .properties 
 
-#     name=PropertiesConfig
+# name=PropertiesConfig
 	property.filename = logs   // the folder name, if it is in the project level then just folder name is enough.
            property.filename = C:\\logs\\debug.log   // if it is in the not project level then write the path.
 	appenders = console, file  // where do you want to print your log? Console or file or both
@@ -62,7 +59,7 @@ e.	.Xml, .properties
 	appender.file.type = File
 	appender.file.name = LOGFILE
 	appender.file.fileName=${filename}/propertieslogs.log  //{ propertieslogs.log = file name of the log inside the folder if it is in the project level}  
-  #if it is outside of the project then write the path. 
+  # if it is outside of the project then write the path. 
 	appender.file.layout.type=PatternLayout
 	appender.file.layout.pattern=[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
 # date style
@@ -71,20 +68,20 @@ e.	.Xml, .properties
     
 	loggers=file
 	logger.file.name=com.salesforce.base
-#Write the package name where all the test cases are. Only package name is enough. 
+# Write the package name where all the test cases are. Only package name is enough. 
 	logger.file.level = trace
-#there are different level such as trace, info, debug, warn, error, fatal
+# there are different level such as trace, info, debug, warn, error, fatal
 # trace is the lowest level. By default upper level cover the lower.
 	logger.file.appenderRefs = file
 	logger.file.appenderRef.file.ref = LOGFILE
 	
 
-#	rootLogger.level = trace
+# rootLogger.level = trace
 # there are different level such as trace, info, debug, warn, error, fatal
 # trace is the lowest level. By default upper level cover the lower.
 
-#	rootLogger.appenderRefs = stdout
-#	rootLogger.appenderRef.stdout.ref = STDOUT
+# rootLogger.appenderRefs = stdout
+# rootLogger.appenderRef.stdout.ref = STDOUT
 	
 	
 	
