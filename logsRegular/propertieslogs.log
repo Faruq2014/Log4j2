@@ -1,0 +1,16 @@
+[TRACE] 2020-09-15 16:37:05.297 [main] Test1 - this is trace message..
+
+[INFO ] 2020-09-15 16:37:05.302 [main] Test1 - this is information level message
+[WARN ] 2020-09-15 16:37:05.302 [main] Test1 - this is warn level message
+[ERROR] 2020-09-15 16:37:05.303 [main] Test1 - this is error level message
+[FATAL] 2020-09-15 16:37:05.303 [main] Test1 - this is fatal level message
+
+[DEBUG] 2020-09-15 16:37:05.303 [main] Test1 - this is debugging message
+[TRACE] 2020-09-15 16:37:59.828 [main] Test1 - this is trace message..
+
+[INFO ] 2020-09-15 16:37:59.832 [main] Test1 - this is information level message
+[WARN ] 2020-09-15 16:37:59.833 [main] Test1 - this is warn level message
+[ERROR] 2020-09-15 16:37:59.833 [main] Test1 - this is error level message
+[FATAL] 2020-09-15 16:37:59.833 [main] Test1 - this is fatal level message
+
+[DEBUG] 2020-09-15 16:37:59.833 [main] Test1 - this is debugging message

@@ -1,0 +1,6 @@
+2020-09-20 18:56:38 INFO  Test2:13 - this is information level message
+2020-09-20 18:56:38 WARN  Test2:14 - this is warn level message
+2020-09-20 18:56:38 ERROR Test2:15 - this is error level message
+2020-09-20 18:56:38 FATAL Test2:16 - this is fatal level message
+
+2020-09-20 18:56:38 DEBUG Test2:17 - this is debugging message
